@@ -81,7 +81,7 @@ p {
     margin-right: 10%;
     letter-spacing: .5px;
     line-height: 30px;
-    margin-bottom: 7%;
+    /* margin-bottom: 7%; */
 }
 
 .fullBleed {
@@ -106,20 +106,64 @@ width:100%;
     margin-right: 20%;
 }
 
+.topMargin {
+    margin-top: 10%;
+}
+
+.Lower{
+    margin-top: 20%;
+}
+
+
 .small {
     font-size: normal;
     line-height: 18px;
 }
 
-/* .gridImage { */
-    /* width: 50%; */
-/* } */
+.gridImage {
+    width: 100%;
+}
+
+.bottomMargin {
+    margin-bottom: 10%;
+}
+.br {
+    margin-top: 2%;
+}
+
+.background {
+    background-color: #F8EFD3;
+}
 
 /* button:hover{ */
     /* color: #F8EFD3; */
     /* text-decoration: underline; */
     
 /* } */
+.standard{
+    background-color:#231F20;
+    font-family: roc-grotesk-wide, sans-serif;
+    text-transform: uppercase;
+    font-size: medium;
+    font-weight: 700;
+    border-radius: 25px;
+    padding: 12px 35px;
+    margin-left: 20%;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    border: 2px solid #F8EFD3;
+    width: 15%;
+    color:#F8EFD3
+    }
+    
+    .standard:hover{
+        background-color: #F8EFD3;
+        color: #231F20;
+    }
+    
+    .standard:focus {
+        outline: none;
+    }
 
 button:focus {
     outline: none;
