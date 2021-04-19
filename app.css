@@ -261,7 +261,7 @@ a, a:hover {
     margin-right: 0;
   }
   
-  li:after {
+  .navLink:after {
     content: '';
     display: block;
     margin: 3px auto auto auto;
@@ -272,7 +272,7 @@ a, a:hover {
     color:#F8EFD3;
   }
   
-  li:hover:after {
+  .navLink:hover:after {
     width: 100%;
     background: #F8EFD3;
   }
